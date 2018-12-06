@@ -1,0 +1,14 @@
+InterfaceOneWire			KEYWORD1
+resetAndPresenceDetection	KEYWORD2
+writeByte					KEYWORD2
+writeBytes					KEYWORD2
+activePullupDisable			KEYWORD2
+readByte					KEYWORD2
+readBytes					KEYWORD2
+writeBit					KEYWORD2
+readBit						KEYWORD2
+discoverDevices				KEYWORD2
+romCommand_ROMSingle		KEYWORD2
+romCommand_ROMSelect		KEYWORD2
+romCommand_ROMBroadcast		KEYWORD2
+crc8CheckIButton			KEYWORD2

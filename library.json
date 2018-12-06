@@ -1,0 +1,26 @@
+{
+	"name": "OneWireMaster",
+	"keywords": "onewire, onewire-master, 1-wire, 1-wire-master, bus, master, ibutton",
+	"description": "1-Wire master library (using bit banging; including ROM search)",
+	"authors":
+	{
+		"name": "Thomas Spielauer",
+		"url": "http://www.tspi.at/",
+		"email": "tsparduino@tspi.at",
+		"maintainer": true
+	},
+	"license": "BSD-4-Clause",
+	"version": "0.9",
+	"downloadUrl": "https://github.com/tspspi/arduinoOnewireMaster/archive/master.zip",
+	"export": {
+		"include": [
+			"onewire.cpp",
+			"onewire.h"
+		]
+	},
+	"frameworks": "arduino",
+	"platforms": "atmelavr",
+	"build" : {
+		"flags": "-DONEWIRE_SUPPORT_ENUMERATION"
+	}
+}
