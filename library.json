@@ -11,7 +11,7 @@
 	},
 	"license": "BSD-4-Clause",
 	"version": "0.9",
-	"downloadUrl": "https://github.com/tspspi/arduinoOnewireMaster/archive/master.zip",
+	"downloadUrl": "https://github.com/tspspi/arduinoOnewireMaster/raw/master/bin/arduinoOneWireMaster.zip",
 	"export": {
 		"include": [
 			"onewire.cpp",
